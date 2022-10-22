@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+* {
+  box-sizing: 1170px;
+}
+.awesome {
+  margin: 50px 150px;
+}
+.awesome--body {
+}
+.awesome--header {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.awesome--title {
+  height: 150px;
+  font-size: 36px;
+  margin: auto;
+  margin: 40px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.awesome--separator {
+}
+hr {
+  border: none;
+  height: 2px;
+  width: 170px;
+  color: #ec7979;
+  background-color: #ec7979;
+  text-shadow: none;
+}
+.awesome--subtitle {
+  height: 150px;
+  margin: 0px 0px 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.awesome--footer {
+}
+.awesome--group {
+  display: flex;
+  margin: 0px 40px;
+}
+.block-awesome {
+  flex: 33.333%;
+  margin: 0px 20px;
+}
+.block-awesome--icon {
+  border-radius: 50%;
+  border: 2px solid #ec7979;
+  width: 92px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block-awesome--tittle {
+  height: 100px;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px;
+}
+.block-awesome--subtitle {
+  height: 105px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+}
