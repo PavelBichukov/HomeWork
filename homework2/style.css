@@ -1,0 +1,27 @@
+.square {
+  list-style-type: square;
+}
+.symbol {
+  list-style-type: none;
+}
+.symbol--change::before {
+  content: "♥";
+}
+.image {
+  list-style-type: none;
+}
+.image--change {
+  list-style-image: url();
+}
+td {
+  background-color: #4c715b;
+  padding: 2px;
+  border: 2px solid black;
+}
+table {
+  border: 2px solid black;
+  border-spacing: 4px;
+}
+th {
+  border: 2px solid black;
+}
