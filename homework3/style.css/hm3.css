@@ -1,0 +1,58 @@
+.container {
+    max-width: 1100px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.first__li {
+    padding-left: 10px;
+}
+
+.first {
+    margin: 0px 0px 50px 0px;
+}
+
+.table3__tr {
+    background-color: #b6dec2;
+}
+
+.table3__td {
+    padding: 2px 40px 2px 2px;
+}
+
+.table3__tr:first-child {
+    text-align: center;
+    font-weight: bold;
+}
+
+.frame__first {
+    max-width: 300px;
+    border: 10px double white;
+    background: rgb(139, 6, 139);
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.miracles {
+    max-width: 300px;
+    margin-bottom: 50px;
+}
+
+.miracles__tittle {
+    background-color: rgb(187, 125, 89);
+    margin: 2px;
+    padding: 15px;
+    font-weight: 100;
+    color: white;
+}
+
+.miracles__tittle:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.miracles__tittle:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
